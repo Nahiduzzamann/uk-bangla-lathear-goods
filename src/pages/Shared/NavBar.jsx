@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,38 +51,89 @@ const Navbar = () => {
               {isOpen && (
                 <ul
                   tabIndex={0}
-                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box bg-[#7F5537] z-50"
+                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box bg-[#7F5537] z-50 max-h-80 overflow-y-auto"
                 >
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to="/">Home</NavLink>
+                    <NavLink onClick={toggleMenu} to="/">
+                      Home
+                    </NavLink>
                   </li>
-                  <p className='text-center underline pb-2 text-white'>Products</p>
+                  <p className="text-center underline pb-2 text-white">MENS</p>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/products/${'cattleFeed'}`}>Prestige Cattle Feed</NavLink>
-                  </li>
-                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/products/${'broilerFeed'}`}>Prestige Broiler Feed</NavLink>
-                  </li>
-                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/products/${'layerFeed'}`}>Prestige Layer Feed</NavLink>
+                    <NavLink onClick={toggleMenu} to={`/sandal`}>
+                      Sandal
+                    </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/products/${'sonaliFeed'}`}>Prestige Sonali Feed</NavLink>
+                    <NavLink onClick={toggleMenu} to={`/loafer`}>
+                      Loafer/Casual Shoe
+                    </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/products/${'fishFeed'}`}>Prestige Fish Feed</NavLink>
+                    <NavLink onClick={toggleMenu} to={`/formal`}>
+                      Formal Shoe
+                    </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/products/${'shrimpFeed'}`}>Prestige Shrimp Feed</NavLink>
+                    <NavLink onClick={toggleMenu} to={`/wallet`}>
+                      Wallet
+                    </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/products/${'aquariumFishFeed'}`}>Prestige Aquarium Fish Feed</NavLink>
+                    <NavLink onClick={toggleMenu} to={`/belt`}>
+                      Belt
+                    </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to="/aboutus">About</NavLink>
+                    <NavLink onClick={toggleMenu} to={`/cardHolder`}>
+                      Card Holder
+                    </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to="/contact">Contact</NavLink>
+                    <NavLink onClick={toggleMenu} to={`/jacket`}>
+                      Leather Jacket
+                    </NavLink>
+                  </li>
+                  <p className="text-center underline pb-2 text-white">
+                    LADIES
+                  </p>
+                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
+                    <NavLink onClick={toggleMenu} to={`/ladiesBag`}>
+                      Ladies Bag
+                    </NavLink>
+                  </li>
+                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
+                    <NavLink onClick={toggleMenu} to={`/ladiesShoe`}>
+                      Ladies Shoe
+                    </NavLink>
+                  </li>
+                  <p className="text-center underline pb-2 text-white">
+                    OTHERS
+                  </p>
+                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
+                    <NavLink onClick={toggleMenu} to={`/corporateGifts`}>
+                      Corporate Gifts
+                    </NavLink>
+                  </li>
+                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
+                    <NavLink onClick={toggleMenu} to={`/passportCover`}>
+                      Passport Cover
+                    </NavLink>
+                  </li>
+                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
+                    <NavLink onClick={toggleMenu} to="/mission">
+                      Mission & Waste
+                    </NavLink>
+                  </li>
+                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
+                    <NavLink onClick={toggleMenu} to="/aboutus">
+                      About
+                    </NavLink>
+                  </li>
+                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
+                    <NavLink onClick={toggleMenu} to="/contact">
+                      Contact
+                    </NavLink>
                   </li>
                 </ul>
               )}
@@ -101,85 +152,191 @@ const Navbar = () => {
               </li>
               <li tabIndex={0}>
                 <div className="relative">
-                  <div className="text-white hover:text-gray-300 lg:text-2xl mr-5 cursor-pointer" onMouseEnter={() => document.getElementById("dropdown").classList.remove("hidden")} onMouseLeave={() => document.getElementById("dropdown").classList.add("hidden")}>
-                    Products
+                  <div
+                    className="text-white hover:text-gray-300 lg:text-2xl mr-5 cursor-pointer"
+                    onMouseEnter={() =>
+                      document
+                        .getElementById("dropdown")
+                        .classList.remove("hidden")
+                    }
+                    onMouseLeave={() =>
+                      document
+                        .getElementById("dropdown")
+                        .classList.add("hidden")
+                    }
+                  >
+                    MENS
                   </div>
-                  <div id="dropdown" className="hidden absolute text-gray-800 shadow top-10 rounded z-50" onMouseEnter={() => document.getElementById("dropdown").classList.remove("hidden")} onMouseLeave={() => document.getElementById("dropdown").classList.add("hidden")}>
+                  <div
+                    id="dropdown"
+                    className="hidden absolute text-gray-800 shadow top-10 rounded z-50"
+                    onMouseEnter={() =>
+                      document
+                        .getElementById("dropdown")
+                        .classList.remove("hidden")
+                    }
+                    onMouseLeave={() =>
+                      document
+                        .getElementById("dropdown")
+                        .classList.add("hidden")
+                    }
+                  >
                     <ul className="p-4 bg-[#7F5537] rounded-md">
                       <li>
                         <NavLink
-                          className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${'cattleFeed'}`}
-                        >
-                          Prestige Cattle Feed
-                        </NavLink>
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Sandal</NavLink>
                       </li>
                       <li>
                         <NavLink
-                          className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${'broilerFeed'}`}
-                        >
-                          Prestige Broiler Feed
-                        </NavLink>
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Loafer/Casual Shoe</NavLink>
                       </li>
                       <li>
                         <NavLink
-                          className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${'layerFeed'}`}
-                        >
-                          Prestige Layer Feed
-                        </NavLink>
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Formal Shoe</NavLink>
                       </li>
                       <li>
                         <NavLink
-                          className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${'sonaliFeed'}`}
-                        >
-                          Prestige Sonali Feed
-                        </NavLink>
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Wallet</NavLink>
                       </li>
                       <li>
                         <NavLink
-                          className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${'fishFeed'}`}
-                        >
-                          Prestige Fish Feed
-                        </NavLink>
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Belt</NavLink>
                       </li>
                       <li>
                         <NavLink
-                          className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${'shrimpFeed'}`}
-                        >
-                          Prestige Shrimp Feed
-                        </NavLink>
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Card Holder</NavLink>
                       </li>
                       <li>
                         <NavLink
-                          className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${'aquariumFishFeed'}`}
-                        >
-                          Prestige Aquarium Fish Feed
-                        </NavLink>
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Leather Jacket</NavLink>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    className="text-white hover:text-gray-300 lg:text-2xl mr-5 cursor-pointer"
+                    onMouseEnter={() =>
+                      document
+                        .getElementById("dropdown1")
+                        .classList.remove("hidden")
+                    }
+                    onMouseLeave={() =>
+                      document
+                        .getElementById("dropdown1")
+                        .classList.add("hidden")
+                    }
+                  >
+                    LADIES
+                  </div>
+                  <div
+                    id="dropdown1"
+                    className="hidden absolute text-gray-800 shadow top-10 left-24 rounded z-50"
+                    onMouseEnter={() =>
+                      document
+                        .getElementById("dropdown1")
+                        .classList.remove("hidden")
+                    }
+                    onMouseLeave={() =>
+                      document
+                        .getElementById("dropdown1")
+                        .classList.add("hidden")
+                    }
+                  >
+                    <ul className="p-4 bg-[#7F5537] rounded-md">
+                      <li>
+                        <NavLink
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Sandal</NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Belt</NavLink>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    className="text-white hover:text-gray-300 lg:text-2xl mr-5 cursor-pointer"
+                    onMouseEnter={() =>
+                      document
+                        .getElementById("dropdown2")
+                        .classList.remove("hidden")
+                    }
+                    onMouseLeave={() =>
+                      document
+                        .getElementById("dropdown2")
+                        .classList.add("hidden")
+                    }
+                  >
+                    OTHERS
+                  </div>
+                  <div
+                    id="dropdown2"
+                    className="hidden absolute text-gray-800 shadow top-10 left-52 rounded z-50"
+                    onMouseEnter={() =>
+                      document
+                        .getElementById("dropdown2")
+                        .classList.remove("hidden")
+                    }
+                    onMouseLeave={() =>
+                      document
+                        .getElementById("dropdown2")
+                        .classList.add("hidden")
+                    }
+                  >
+                    <ul className="p-4 bg-[#7F5537] rounded-md">
+                      <li>
+                        <NavLink
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Corporate Gifts</NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Passport Cover</NavLink>
                       </li>
                     </ul>
                   </div>
                 </div>
-
-
               </li>
               <li>
-                <NavLink className="text-white hover:text-gray-300 lg:text-2xl  mr-5" to="/Services">
-                  Services
+                <NavLink
+                  className="text-white hover:text-gray-300 lg:text-2xl  mr-5"
+                  to="/mission"
+                >
+                  Mission & Waste
                 </NavLink>
               </li>
               <li>
-                <NavLink className="text-white hover:text-gray-300 lg:text-2xl  mr-5" to="/aboutus">
+                <NavLink
+                  className="text-white hover:text-gray-300 lg:text-2xl  mr-5"
+                  to="/aboutus"
+                >
                   About Us
                 </NavLink>
               </li>
               <li>
-                <NavLink className="text-white hover:text-gray-300 lg:text-2xl  mr-5" to="/contact">
+                <NavLink
+                  className="text-white hover:text-gray-300 lg:text-2xl  mr-5"
+                  to="/contact"
+                >
                   Contact Us
                 </NavLink>
               </li>
@@ -196,7 +353,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
     </div>
   );
 };
