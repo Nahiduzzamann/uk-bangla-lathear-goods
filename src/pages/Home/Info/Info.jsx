@@ -5,17 +5,6 @@ const Section = () => {
   const [productionCapacity, setProductionCapacity] = useState(0);
   const [manufacturingFacility, setManufacturingFacility] = useState(0);
 
-  //   let count = 0;
-  //       const interval = setInterval(() => {
-  //         count++;
-  //         setEstablishedIn(count);
-  //         setProductionCapacity(count);
-  //         setManufacturingFacility(count);
-  //         if (count === 1016) {
-  //           clearInterval(interval);
-  //         }
-  //       }, 1);
-
   useEffect(() => {
     const increaseValues = () => {
       let count = 0;
@@ -88,7 +77,7 @@ const Section = () => {
           </svg>
 
           <p className="font-bold text-white text-2xl lg:text-3xl">
-            Monthly Production Capacity
+            Production Capacity/m
           </p>
           <p className="text-xl lg:text-2xl text-white">{productionCapacity}</p>
         </div>
