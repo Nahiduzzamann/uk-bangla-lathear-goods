@@ -26,21 +26,21 @@ const Footer = () => {
                         <div>
                             <h3 className="text-[#111111] font-bold text-3xl mb-2 border-b-[3px] border-[#493120] w-16">Navigation</h3>
                             <ul className="text-gray-400">
-                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to={`/products/${'cattleFeed'}`}>FAQ</Link> </li>
-                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to={`/products/${'broilerFeed'}`}>TEAM</Link></li>
-                                <li className='text-[#111111] hover:text-[#f6c60d]'><Link to='/'>PRIVACY & LEGAL</Link></li>
+                                <li className='text-[#111111] hover:text-[#B67A4F]'><Link to={`/products/${'cattleFeed'}`}>FAQ</Link> </li>
+                                <li className='text-[#111111] hover:text-[#B67A4F]'><Link to={`/products/${'broilerFeed'}`}>TEAM</Link></li>
+                                <li className='text-[#111111] hover:text-[#B67A4F]'><Link to='/'>PRIVACY & LEGAL</Link></li>
                             </ul>
                         </div>
                         <div>
                             <h3 className="text-[#111111] font-bold text-3xl mb-2 border-b-[3px] border-[#493120] w-16">Follow</h3>
                             <div className="flex mt-4">
-                                <Link to="/" className="text-[#493120] hover:text-[#f6c60d] mr-2">
+                                <Link to="/" className="text-[#493120] hover:text-[#B67A4F] mr-2">
                                     <FaTwitter size={30} />
                                 </Link>
-                                <Link to="/" className="text-[#493120] hover:text-[#f6c60d] mr-2">
+                                <Link to="/" className="text-[#493120] hover:text-[#B67A4F] mr-2">
                                     <FaFacebook size={30} />
                                 </Link>
-                                <Link to="/" className="text-[#493120] hover:text-[#f6c60d]">
+                                <Link to="/" className="text-[#493120] hover:text-[#B67A4F]">
                                     <FaInstagram size={30} />
                                 </Link>
                             </div>

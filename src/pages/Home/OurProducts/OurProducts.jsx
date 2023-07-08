@@ -87,7 +87,7 @@ const OurProducts = () => {
         </div>
         <div className="text-center mt-8">
           <button
-            className="bg-[#B67A4F] hover:bg-[#9E683E] text-white font-bold py-2 px-4 rounded"
+            className="bg-[#493120] hover:bg-[#9E683E] text-white font-bold py-2 px-4 rounded"
             onClick={handleNext}
           >
             Next
