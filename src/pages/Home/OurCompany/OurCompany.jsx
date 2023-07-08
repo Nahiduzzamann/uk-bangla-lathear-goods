@@ -8,7 +8,7 @@ const OurCompany = () => {
                 <div className="relative">
                     <Parallax bgImage="https://agriorbit.com/wp-content/uploads/2019/10/Leather-header-min.jpg" strength={500}>
                         <div className="h-screen bg-black bg-opacity-60">
-                        <h3 className="text-center text-2xl lg:text-5xl pt-5 lg:pt-10 text-orange-500">Our Company</h3>
+                        <h3 className="text-center text-2xl lg:text-5xl font-bold pt-5 lg:pt-10 text-orange-500">Our Company</h3>
                             <div className="flex flex-col justify-center items-center h-screen pl-2 pr-2">
                                 <div className="container mx-auto py-12 flex flex-col lg:flex-row">
                                     <div className="lg:w-1/2">

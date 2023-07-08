@@ -20,7 +20,7 @@ const OurProducts = () => {
     {
         type: "Women Leather",
         images: [
-          { src: "https://m.media-amazon.com/images/I/61fexFTTHDL._AC_SR175,263_QL70_.jpg", alt: "Women Product 1" },
+          { src: "https://static-01.daraz.com.bd/p/a216032f1dbe4da6b80154011fd97c11.jpg", alt: "Women Product 1" },
           { src: "https://cdn.shopify.com/s/files/1/2726/4990/files/prime-leather-backpack-von-baer.jpg?v=1633439004", alt: "Women Product 2" },
           { src: "https://static-01.daraz.com.bd/p/4da753e3fced4a66d61f068b39ea2051.jpg", alt: "Women Product 3" },
           { src: "https://cdn.shopify.com/s/files/1/0712/1227/files/womens-dune-soho-wedge-sandal-patina-11.jpg?v=1660679887", alt: "Women Product 4" },
@@ -58,12 +58,12 @@ const OurProducts = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-[#2F2C2C] to-[#181515] py-12">
+    <section className="mx-auto bg-gradient-to-b from-[#2F2C2C] to-[#181515] py-12">
       <div className="container mx-auto">
-        <h2 className="text-3xl text-white font-bold mb-8 text-center">
+        <h2 className="text-2xl lg:text-5xl text-orange-500 font-bold mb-8 text-center pt-5 lg:pt-10">
           Our Products
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <div
               key={index}
@@ -72,10 +72,10 @@ const OurProducts = () => {
               <img
                 src={product.images[activeIndex].src}
                 alt={product.images[activeIndex].alt}
-                className="w-full h-48 object-cover"
+                className="w-full h-52 sm:h-60 md:h-64 lg:h-80 xl:h-96 object-fill"
               />
               <div className="p-4">
-                <h3 className="text-xl text-white font-bold mb-2">
+                <h3 className="text-xl lg:text-2xl text-white font-bold mb-2">
                   {product.type}
                 </h3>
                 <p className="text-gray-300">
@@ -99,4 +99,14 @@ const OurProducts = () => {
 };
 
 export default OurProducts;
+
+
+
+
+
+
+
+
+
+
 
