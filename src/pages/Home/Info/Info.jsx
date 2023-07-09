@@ -46,7 +46,7 @@ const Section = () => {
         <div className="flex flex-col items-center justify-center rounded-lg ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-20 w-20 text-white mr-4"
+            className="h-14 lg:h-20 w-14 lg:w-20 text-white mr-4"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -56,7 +56,7 @@ const Section = () => {
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 7l10 5M12 12l9-4M12 22l9-4M12 12v10"></path>
           </svg>
-          <p className="font-bold text-white text-2xl lg:text-3xl">
+          <p className="font-bold text-white text-xl lg:text-3xl">
             Established In
           </p>
           <p className="text-xl lg:text-2xl text-white">{establishedIn}</p>
@@ -65,7 +65,7 @@ const Section = () => {
         <div className="flex flex-col items-center justify-center rounded-lg p-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-20 w-20 text-white mr-4"
+            className="h-14 lg:h-20 w-14 lg:w-20 text-white mr-4"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -76,7 +76,7 @@ const Section = () => {
             <path d="M9 18l6-6-6-6"></path>
           </svg>
 
-          <p className="font-bold text-white text-2xl lg:text-3xl">
+          <p className="font-bold text-white text-xl lg:text-3xl">
             Production Capacity/m
           </p>
           <p className="text-xl lg:text-2xl text-white">{productionCapacity}</p>
@@ -85,7 +85,7 @@ const Section = () => {
         <div className="flex flex-col items-center justify-center rounded-lg p-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-20 w-20 text-white mr-4"
+            className="h-14 lg:h-20 w-14 lg:w-20 text-white mr-4"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -96,7 +96,7 @@ const Section = () => {
             <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
             <line x1="9" y1="3" x2="9" y2="21"></line>
           </svg>
-          <p className="font-bold text-white text-2xl lg:text-3xl">
+          <p className="font-bold text-white text-xl lg:text-3xl">
             Manufacturing Facility
           </p>
           <p className="text-xl lg:text-2xl text-white">
