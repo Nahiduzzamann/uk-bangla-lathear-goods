@@ -23,7 +23,6 @@ const Modal = ({ item, closeModal }) => {
               ${item.price}
             </p>
             <Rating initialRating={item.ratings} readonly />
-
             <p className="mb-4">
               <span className="mr-2">
                 <FaInfoCircle className="inline-block w-5 h-5 text-gray-500" />
