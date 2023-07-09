@@ -9,19 +9,8 @@ const Footer = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         <div className=''>
                             <Link to='/'>
-                                <img className='h-28' src="https://i.ibb.co/mNHCk2h/uk-bangla-leather-removebg.png" alt="" />
+                                <img className='h-36' src="https://i.ibb.co/mNHCk2h/uk-bangla-leather-removebg.png" alt="" />
                             </Link>
-                            {/* <div className="flex mt-4">
-                                <Link to="/" className="text-[#493120] hover:text-[#f6c60d] mr-2">
-                                    <FaTwitter size={30} />
-                                </Link>
-                                <Link to="/" className="text-[#493120] hover:text-[#f6c60d] mr-2">
-                                    <FaFacebook size={30} />
-                                </Link>
-                                <Link to="/" className="text-[#493120] hover:text-[#f6c60d]">
-                                    <FaInstagram size={30} />
-                                </Link>
-                            </div> */}
                         </div>
                         <div>
                             <h3 className="text-[#111111] font-bold text-3xl mb-2 border-b-[3px] border-[#493120] w-16">Navigation</h3>
