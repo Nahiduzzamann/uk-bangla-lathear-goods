@@ -127,8 +127,8 @@ const Navbar = () => {
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to="/aboutus">
-                      About
+                    <NavLink onClick={toggleMenu} to="/aboutUs">
+                      About Us
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
@@ -328,7 +328,7 @@ const Navbar = () => {
               <li>
                 <NavLink
                   className="text-white hover:text-gray-300 lg:text-2xl  mr-5"
-                  to="/aboutus"
+                  to="/aboutUs"
                 >
                   About Us
                 </NavLink>
