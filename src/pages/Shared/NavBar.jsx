@@ -60,7 +60,7 @@ const Navbar = () => {
                   </li>
                   <p className="text-center underline pb-2 text-white">MENS</p>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to="/menSandal">
+                    <NavLink onClick={toggleMenu} to="/menSandals">
                       Sandal
                     </NavLink>
                   </li>
@@ -75,22 +75,18 @@ const Navbar = () => {
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to='/menWallet'>
+                    <NavLink onClick={toggleMenu} to='/menWallets'>
                       Wallet
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to='/menBelt'>
+                    <NavLink onClick={toggleMenu} to='/menBelts'>
                       Belt
                     </NavLink>
                   </li>
+                  
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/cardHolder`}>
-                      Card Holder
-                    </NavLink>
-                  </li>
-                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/jacket`}>
+                    <NavLink onClick={toggleMenu} to='/menJackets'>
                       Leather Jacket
                     </NavLink>
                   </li>
@@ -113,6 +109,11 @@ const Navbar = () => {
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
                     <NavLink onClick={toggleMenu} to={`/corporateGifts`}>
                       Corporate Gifts
+                    </NavLink>
+                  </li>
+                  <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
+                    <NavLink onClick={toggleMenu} to={`/cardHolder`}>
+                      Card Holder
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
@@ -185,7 +186,7 @@ const Navbar = () => {
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to="/menSandal"
+                          to="/menSandals"
                         >Sandal</NavLink>
                       </li>
                       <li>
@@ -203,19 +204,19 @@ const Navbar = () => {
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to='menWallet'
+                          to='menWallets'
                         >Wallet</NavLink>
                       </li>
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to='/menBelt'
+                          to='/menBelts'
                         >Belt</NavLink>
                       </li>
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
+                          to='/menJackets'
                         >Leather Jacket</NavLink>
                       </li>
                     </ul>

@@ -10,6 +10,7 @@ import MenCasual from './pages/Mens/Casual/Casual';
 import MenFormal from './pages/Mens/FormalShoe/FormalShoe';
 import MenWallet from './pages/Mens/Wallet/Wallet';
 import MenBelt from './pages/Mens/MenBelt/MenBelt';
+import MenJackets from './pages/Mens/LeatherJacket/LeatherJacket';
 
 
 const router = createBrowserRouter([
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/menSandal",
+        path: "/menSandals",
         element: <MenSandal></MenSandal>,
       },
       {
@@ -35,12 +36,16 @@ const router = createBrowserRouter([
         element: <MenFormal></MenFormal>,
       },
       {
-        path: "/menWallet",
+        path: "/menWallets",
         element: <MenWallet></MenWallet>,
       },
       {
-        path: "/menBelt",
+        path: "/menBelts",
         element: <MenBelt></MenBelt>,
+      },
+      {
+        path: "/menJackets",
+        element: <MenJackets></MenJackets>,
       },
      
     ],

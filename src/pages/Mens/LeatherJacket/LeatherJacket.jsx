@@ -1,10 +1,10 @@
-
 import { useState } from "react";
-import menBeltsData from "./MenBeltData";
+import menJacketsData from "./LeatherJacketData";
 import Modal from "../../../components/Modal";
 
 
-const MenBelt = () => {
+
+const MenJackets = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -13,7 +13,7 @@ const MenBelt = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const lastIndex = currentPage * itemsPerPage;
   const firstIndex = lastIndex - itemsPerPage;
-  const currentData = menBeltsData.slice(firstIndex, lastIndex);
+  const currentData = menJacketsData.slice(firstIndex, lastIndex);
 
   const handleDetails = (item) => {
     setSelectedItem(item);
@@ -30,7 +30,7 @@ const MenBelt = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">Men Belts</h1>
+      <h1 className="text-3xl font-bold mb-4">Men Leather Jackets</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {currentData.map((item) => (
           <div
@@ -72,7 +72,7 @@ const MenBelt = () => {
             Prev
           </button>
           {Array.from({
-            length: Math.ceil(menBeltsData.length / itemsPerPage),
+            length: Math.ceil(menJacketsData.length / itemsPerPage),
           }).map((item, index) => (
             <button
               key={index}
@@ -89,14 +89,14 @@ const MenBelt = () => {
           <button
             className={`px-3 py-2 rounded-r ${
               currentPage ===
-              Math.ceil(menBeltsData.length / itemsPerPage)
+              Math.ceil(menJacketsData.length / itemsPerPage)
                 ? "bg-gray-300"
                 : "bg-gray-500 text-white hover:bg-gray-600"
             }`}
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={
               currentPage ===
-              Math.ceil(menBeltsData.length / itemsPerPage)
+              Math.ceil(menJacketsData.length / itemsPerPage)
             }
           >
             Next
@@ -107,4 +107,4 @@ const MenBelt = () => {
   );
 };
 
-export default MenBelt;
+export default MenJackets;
