@@ -12,6 +12,7 @@ import MenWallet from './pages/Mens/Wallet/Wallet';
 import MenBelt from './pages/Mens/MenBelt/MenBelt';
 import MenJackets from './pages/Mens/LeatherJacket/LeatherJacket';
 import AboutUs from './pages/AboutUs/AboutUs';
+import ContactPage from './pages/Contact/Contact';
 
 
 const router = createBrowserRouter([
@@ -26,7 +27,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/aboutUs",
-        element: <AboutUs></AboutUs>
+        element: <AboutUs></AboutUs>,
+      },
+      {
+        path: "/contact",
+        element: <ContactPage></ContactPage>,
       },
       {
         path: "/menSandals",
