@@ -15,7 +15,7 @@ const Modal = ({ item, closeModal }) => {
           <img
             src={item.picture}
             alt={item.name}
-            className="w-full h-48 md:h-60 lg:h-72 xl:h-80 object-fill rounded-md mr-8"
+            className="w-full h-48 md:h-60 lg:h-80 xl:h-96 object-fill rounded-md mr-8"
           />
           <div>
             <h2 className="text-2xl font-semibold mb-2">{item.name}</h2>
