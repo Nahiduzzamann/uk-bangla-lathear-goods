@@ -256,13 +256,13 @@ const Navbar = () => {
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
                           to={`/products/${"cattleFeed"}`}
-                        >Shoe</NavLink>
+                        >Bag</NavLink>
                       </li>
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
                           to={`/products/${"cattleFeed"}`}
-                        >Belt</NavLink>
+                        >Shoe</NavLink>
                       </li>
                     </ul>
                   </div>
