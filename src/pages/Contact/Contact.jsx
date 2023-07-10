@@ -3,7 +3,7 @@ import { PhoneIcon, MailIcon, LocationMarkerIcon } from '@heroicons/react/outlin
 const ContactPage = () => {
     return (
         <div className="container mx-auto p-4 pt-12 pb-12">
-                    <h4 className="text-3xl text-center font-bold mb-8 text-[#1A2753]">Contact Us</h4>
+                    <h4 className="text-3xl text-center font-bold mb-8 text-orange-500">Contact Us</h4>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
@@ -70,7 +70,7 @@ const ContactPage = () => {
                             className="border border-gray-300 rounded-md w-full p-2 mb-4 resize-none"
                             rows="4"
                         ></textarea>
-                        <button className="bg-blue-900 text-white py-2 px-4 rounded-md">Send</button>
+                        <button className="bg-[#493120] hover:bg-[#9E683E] text-white font-bold py-2 px-4 rounded">Send</button>
                     </form>
                 </div>
             </div>
