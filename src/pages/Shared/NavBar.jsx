@@ -51,7 +51,7 @@ const Navbar = () => {
               {isOpen && (
                 <ul
                   tabIndex={0}
-                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box bg-[#7F5537] z-50 max-h-80 overflow-y-auto"
+                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box bg-[#7F5537] z-50 max-h-80 overflow-y-auto w-56"
                 >
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
                     <NavLink onClick={toggleMenu} to="/">
@@ -65,12 +65,12 @@ const Navbar = () => {
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/loafer`}>
+                    <NavLink onClick={toggleMenu} to='/menCasual'>
                       Loafer/Casual Shoe
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/formal`}>
+                    <NavLink onClick={toggleMenu} to='/menFormal'>
                       Formal Shoe
                     </NavLink>
                   </li>
@@ -191,13 +191,13 @@ const Navbar = () => {
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
+                          to='/menCasual'
                         >Loafer/Casual Shoe</NavLink>
                       </li>
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
+                          to='/menFormal'
                         >Formal Shoe</NavLink>
                       </li>
                       <li>

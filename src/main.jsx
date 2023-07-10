@@ -6,6 +6,8 @@ import Home from './pages/Home/Home/Home';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
 import MenSandal from './pages/Mens/MenSandal/Sandal';
+import MenCasual from './pages/Mens/Casual/Casual';
+import MenFormal from './pages/Mens/FormalShoe/FormalShoe';
 
 
 const router = createBrowserRouter([
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
       {
         path: "/menSandal",
         element: <MenSandal></MenSandal>,
+      },
+      {
+        path: "/menCasual",
+        element: <MenCasual></MenCasual>,
+      },
+      {
+        path: "/menFormal",
+        element: <MenFormal></MenFormal>,
       },
      
     ],
