@@ -1,9 +1,9 @@
 
 import { useState } from "react";
-import menFormalShoesData from "./FormalShoeData";
 import Modal from "../MenSandal/Modal";
+import menWalletsData from "./WalletData";
 
-const MenFormal = () => {
+const MenWallet = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -12,7 +12,7 @@ const MenFormal = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const lastIndex = currentPage * itemsPerPage;
   const firstIndex = lastIndex - itemsPerPage;
-  const currentData = menFormalShoesData.slice(firstIndex, lastIndex);
+  const currentData = menWalletsData.slice(firstIndex, lastIndex);
 
   const handleDetails = (item) => {
     setSelectedItem(item);
@@ -29,7 +29,7 @@ const MenFormal = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">Formal Shoes</h1>
+      <h1 className="text-3xl font-bold mb-4">Men Wallet</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {currentData.map((item) => (
           <div
@@ -71,7 +71,7 @@ const MenFormal = () => {
             Prev
           </button>
           {Array.from({
-            length: Math.ceil(menFormalShoesData.length / itemsPerPage),
+            length: Math.ceil(menWalletsData.length / itemsPerPage),
           }).map((item, index) => (
             <button
               key={index}
@@ -88,14 +88,14 @@ const MenFormal = () => {
           <button
             className={`px-3 py-2 rounded-r ${
               currentPage ===
-              Math.ceil(menFormalShoesData.length / itemsPerPage)
+              Math.ceil(menWalletsData.length / itemsPerPage)
                 ? "bg-gray-300"
                 : "bg-gray-500 text-white hover:bg-gray-600"
             }`}
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={
               currentPage ===
-              Math.ceil(menFormalShoesData.length / itemsPerPage)
+              Math.ceil(menWalletsData.length / itemsPerPage)
             }
           >
             Next
@@ -106,4 +106,4 @@ const MenFormal = () => {
   );
 };
 
-export default MenFormal;
+export default MenWallet;

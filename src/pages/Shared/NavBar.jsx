@@ -75,7 +75,7 @@ const Navbar = () => {
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/wallet`}>
+                    <NavLink onClick={toggleMenu} to='/menWallet'>
                       Wallet
                     </NavLink>
                   </li>
@@ -203,7 +203,7 @@ const Navbar = () => {
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
+                          to='menWallet'
                         >Wallet</NavLink>
                       </li>
                       <li>

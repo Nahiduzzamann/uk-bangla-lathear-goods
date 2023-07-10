@@ -1,7 +1,7 @@
 const menFormalShoesData = [
     {
       id: 1,
-      picture: "/images/formal-shoes/1.jpg",
+      picture: "https://www.allenedmonds.com/-/media/project/tenant/allen-edmonds/allen-edmonds/homepage/nss-launch-homepage/park-ave-landing-page-second-mobile.jpg?w=1440&hash=651F60E8A5B8D89F8DAD5C5DA7A90CAB",
       name: "Allen Edmonds Park Avenue",
       price: "$395.00",
       description: "Classic cap-toe oxfords with a leather upper and leather sole.",
@@ -10,7 +10,7 @@ const menFormalShoesData = [
     },
     {
       id: 2,
-      picture: "/images/formal-shoes/2.jpg",
+      picture: "https://www.church-footwear.com/content/dam/churchs_products/E/EEB/EEB003/9WFF0AAB/EEB003_9WF_F0AAB_F_000000_SLR.png/_jcr_content/renditions/cq5dam.web.white.2560x2560.jpeg",
       name: "Church's Consul Oxford",
       price: "$650.00",
       description: "Elegant oxfords with a polished leather upper and Goodyear welt construction.",
@@ -19,7 +19,7 @@ const menFormalShoesData = [
     },
     {
       id: 3,
-      picture: "/images/formal-shoes/3.jpg",
+      picture: "https://media.cnn.com/api/v1/images/stellar/prod/230608045457-01-gucci-loafers-062316-restricted.jpg?c=16x9&q=h_720,w_1280,c_fill",
       name: "Gucci Horsebit Loafer",
       price: "$790.00",
       description: "Luxurious loafers with a leather upper, signature horsebit detail, and leather sole.",
@@ -28,7 +28,7 @@ const menFormalShoesData = [
     },
     {
       id: 4,
-      picture: "/images/formal-shoes/4.jpg",
+      picture: "https://www.johnlobb.com/static/media/catalog/product/0/0/008181le2y_city_ii_dark_brown_worn_30.jpg",
       name: "John Lobb City II",
       price: "$1,300.00",
       description: "Handcrafted oxfords with a calfskin leather upper and single leather sole.",
@@ -37,7 +37,7 @@ const menFormalShoesData = [
     },
     {
       id: 5,
-      picture: "/images/formal-shoes/5.jpg",
+      picture: "https://cdn.shopify.com/s/files/1/0283/3917/5496/files/slot-4-materials-hallam-darkbrown-calf.jpg?v=1607870614",
       name: "Crockett & Jones Hallam",
       price: "$625.00",
       description: "Timeless oxfords with a sleek design, leather upper, and leather sole.",
@@ -46,7 +46,7 @@ const menFormalShoesData = [
     },
     {
       id: 6,
-      picture: "/images/formal-shoes/6.jpg",
+      picture: "https://images-cdn.ubuy.co.in/63653511d0dc443d41490452-salvatore-ferragamo-nowell-wide-ee.jpg",
       name: "Salvatore Ferragamo Gancini Bit Loafer",
       price: "$680.00",
       description: "Stylish loafers with a leather upper, signature Gancini bit detail, and leather sole.",
@@ -55,7 +55,7 @@ const menFormalShoesData = [
     },
     {
       id: 7,
-      picture: "/images/formal-shoes/7.jpg",
+      picture: "https://cdna.lystit.com/1200/630/tr/photos/mrporter/9574a148/berluti-brown-Alessandro-Capri-Leather-Whole-cut-Oxford-Shoes.jpeg",
       name: "Berluti Alessandro Whole-Cut Oxford",
       price: "$1,950.00",
       description: "Exquisite whole-cut oxfords with a patinated leather upper and leather sole.",
@@ -64,7 +64,7 @@ const menFormalShoesData = [
     },
     {
       id: 8,
-      picture: "/images/formal-shoes/8.jpg",
+      picture: "https://cdn.shopify.com/s/files/1/0211/7958/products/MG_6887_1024x1024.jpg?v=1567054443",
       name: "Edward Green Chelsea",
       price: "$1,100.00",
       description: "Sleek chelsea boots with a leather upper, elastic side panels, and leather sole.",
@@ -73,7 +73,7 @@ const menFormalShoesData = [
     },
     {
       id: 9,
-      picture: "/images/formal-shoes/9.jpg",
+      picture: "https://images.asos-media.com/products/hugo-by-hugo-boss-dressapp-rub-off-high-shine-oxford-shoes/7536506-1-black?$n_750w$&wid=750&hei=750&fit=crop",
       name: "Hugo Boss Dressapp",
       price: "$295.00",
       description: "Modern oxfords with a leather upper, plain toe, and leather sole.",
@@ -82,7 +82,7 @@ const menFormalShoesData = [
     },
     {
       id: 10,
-      picture: "/images/formal-shoes/10.jpg",
+      picture: "https://www.fransboonestore.com/cdn/shop/files/156A8965_1100x.jpg?v=1686145594",
       name: "Alden Plain Toe Blucher",
       price: "$565.00",
       description: "Classic blucher shoes with a cordovan leather upper and leather sole.",
@@ -91,7 +91,7 @@ const menFormalShoesData = [
     },
     {
       id: 11,
-      picture: "/images/formal-shoes/11.jpg",
+      picture: "https://n.nordstrommedia.com/id/sr3/a6d5a896-d6af-4ed3-afc5-b935a1cd81a8.jpeg?trim=color&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=350&h=536&trimcolor=FFF",
       name: "Magnanni Marco",
       price: "$375.00",
       description: "Sophisticated oxfords with a burnished leather upper and leather sole.",
@@ -100,7 +100,7 @@ const menFormalShoesData = [
     },
     {
       id: 12,
-      picture: "/images/formal-shoes/12.jpg",
+      picture: "https://m.media-amazon.com/images/I/51VoL21IRsL._AC_UY1000_.jpg",
       name: "Mezlan Oxford",
       price: "$425.00",
       description: "Elegant oxfords with a leather upper, brogue details, and leather sole.",
@@ -109,7 +109,7 @@ const menFormalShoesData = [
     },
     {
       id: 13,
-      picture: "/images/formal-shoes/13.jpg",
+      picture: "https://www.ballyofswitzerland.com/dw/image/v2/BFJV_PRD/on/demandware.static/-/Sites-bly-master-product-catalog/default/dw4b51365e/images/original/Lace_Ups_SCRIVANI_501R.jpg?sw=580&sh=800&sm=fit",
       name: "Bally Scribe Albano",
       price: "$550.00",
       description: "Refined oxfords with a calfskin leather upper and leather sole.",
@@ -118,7 +118,7 @@ const menFormalShoesData = [
     },
     {
       id: 14,
-      picture: "/images/formal-shoes/14.jpg",
+      picture: "https://cdn.shopify.com/s/files/1/0211/7958/products/MG_51411_1024x1024.JPG?v=1509041060",
       name: "Carmina Shoemaker Quarter Brogue",
       price: "$620.00",
       description: "Handcrafted brogue shoes with a leather upper, wingtip design, and leather sole.",
@@ -127,7 +127,7 @@ const menFormalShoesData = [
     },
     {
       id: 15,
-      picture: "/images/formal-shoes/15.jpg",
+      picture: "https://www.corthay.com/310-product_image/arca.jpg",
       name: "Corthay Arca",
       price: "$1,950.00",
       description: "Artisanal oxfords with a patinated leather upper and signature red leather sole.",

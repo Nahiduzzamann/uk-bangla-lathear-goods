@@ -8,6 +8,7 @@ import ErrorPage from './pages/ErrorPage/ErrorPage';
 import MenSandal from './pages/Mens/MenSandal/Sandal';
 import MenCasual from './pages/Mens/Casual/Casual';
 import MenFormal from './pages/Mens/FormalShoe/FormalShoe';
+import MenWallet from './pages/Mens/Wallet/Wallet';
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/menFormal",
         element: <MenFormal></MenFormal>,
+      },
+      {
+        path: "/menWallet",
+        element: <MenWallet></MenWallet>,
       },
      
     ],
