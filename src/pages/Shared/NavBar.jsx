@@ -216,12 +216,6 @@ const Navbar = () => {
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
                           to={`/products/${"cattleFeed"}`}
-                        >Card Holder</NavLink>
-                      </li>
-                      <li>
-                        <NavLink
-                        className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
                         >Leather Jacket</NavLink>
                       </li>
                     </ul>
@@ -260,7 +254,7 @@ const Navbar = () => {
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
                           to={`/products/${"cattleFeed"}`}
-                        >Sandal</NavLink>
+                        >Shoe</NavLink>
                       </li>
                       <li>
                         <NavLink
@@ -311,6 +305,12 @@ const Navbar = () => {
                         className="text-white hover:text-gray-300 lg:text-xl"
                           to={`/products/${"cattleFeed"}`}
                         >Passport Cover</NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                        className="text-white hover:text-gray-300 lg:text-xl"
+                          to={`/products/${"cattleFeed"}`}
+                        >Card Holder</NavLink>
                       </li>
                     </ul>
                   </div>
