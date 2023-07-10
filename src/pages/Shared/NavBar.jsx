@@ -80,7 +80,7 @@ const Navbar = () => {
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/belt`}>
+                    <NavLink onClick={toggleMenu} to='/menBelt'>
                       Belt
                     </NavLink>
                   </li>
@@ -209,7 +209,7 @@ const Navbar = () => {
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
+                          to='/menBelt'
                         >Belt</NavLink>
                       </li>
                       <li>

@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import Modal from "../MenSandal/Modal";
+import Modal from "../../../components/Modal";
 import menWalletsData from "./WalletData";
 
 const MenWallet = () => {

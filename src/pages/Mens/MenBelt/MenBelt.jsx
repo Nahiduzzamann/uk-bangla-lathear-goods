@@ -1,8 +1,10 @@
+
 import { useState } from "react";
-import mensSandalLeatherData from "./SandalData";
+import menBeltsData from "./MenBeltData";
 import Modal from "../../../components/Modal";
 
-const MenSandal = () => {
+
+const MenBelt = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -11,7 +13,7 @@ const MenSandal = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const lastIndex = currentPage * itemsPerPage;
   const firstIndex = lastIndex - itemsPerPage;
-  const currentData = mensSandalLeatherData.slice(firstIndex, lastIndex);
+  const currentData = menBeltsData.slice(firstIndex, lastIndex);
 
   const handleDetails = (item) => {
     setSelectedItem(item);
@@ -28,7 +30,7 @@ const MenSandal = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">Sandals</h1>
+      <h1 className="text-3xl font-bold mb-4">Men Belt</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {currentData.map((item) => (
           <div
@@ -70,7 +72,7 @@ const MenSandal = () => {
             Prev
           </button>
           {Array.from({
-            length: Math.ceil(mensSandalLeatherData.length / itemsPerPage),
+            length: Math.ceil(menBeltsData.length / itemsPerPage),
           }).map((item, index) => (
             <button
               key={index}
@@ -87,14 +89,14 @@ const MenSandal = () => {
           <button
             className={`px-3 py-2 rounded-r ${
               currentPage ===
-              Math.ceil(mensSandalLeatherData.length / itemsPerPage)
+              Math.ceil(menBeltsData.length / itemsPerPage)
                 ? "bg-gray-300"
                 : "bg-gray-500 text-white hover:bg-gray-600"
             }`}
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={
               currentPage ===
-              Math.ceil(mensSandalLeatherData.length / itemsPerPage)
+              Math.ceil(menBeltsData.length / itemsPerPage)
             }
           >
             Next
@@ -105,4 +107,4 @@ const MenSandal = () => {
   );
 };
 
-export default MenSandal;
+export default MenBelt;

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Modal from "../MenSandal/Modal";
+import Modal from "../../../components/Modal";
 import menCasualShoesData from "./CasualData";
 
 const MenCasual = () => {

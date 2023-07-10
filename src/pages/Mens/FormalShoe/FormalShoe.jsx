@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import menFormalShoesData from "./FormalShoeData";
-import Modal from "../MenSandal/Modal";
+import Modal from "../../../components/Modal";
 
 const MenFormal = () => {
   const [showModal, setShowModal] = useState(false);

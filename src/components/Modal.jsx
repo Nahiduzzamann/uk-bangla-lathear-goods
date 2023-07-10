@@ -15,12 +15,12 @@ const Modal = ({ item, closeModal }) => {
           <img
             src={item.picture}
             alt={item.name}
-            className="w-48 h-48 object-fill rounded-md mr-8"
+            className="w-full h-48 md:h-60 lg:h-72 xl:h-80 object-fill rounded-md mr-8"
           />
           <div>
             <h2 className="text-2xl font-semibold mb-2">{item.name}</h2>
             <p className="text-gray-600 text-xl mb-4">
-              ${item.price}
+              {item.price}
             </p>
             <Rating initialRating={item.ratings} readonly />
             <p className="mb-4">
