@@ -51,7 +51,7 @@ const Navbar = () => {
               {isOpen && (
                 <ul
                   tabIndex={0}
-                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box bg-[#7F5537] z-50 max-h-80 overflow-y-auto w-56"
+                  className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box bg-[#7F5537] z-50 max-h-96 overflow-y-auto w-56"
                 >
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
                     <NavLink onClick={toggleMenu} to="/">
@@ -126,6 +126,7 @@ const Navbar = () => {
                       Mission & Waste
                     </NavLink>
                   </li>
+                  <hr className="mt-2" />
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
                     <NavLink onClick={toggleMenu} to="/aboutUs">
                       About Us
