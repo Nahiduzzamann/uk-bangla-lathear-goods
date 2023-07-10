@@ -32,7 +32,7 @@ const MissionAndWaste = () => {
             alt="Our Mission"
             className="object-cover w-full h-full rounded-lg shadow-lg"
           />
-          <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-50 rounded-lg" />
+          <div className="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-70 rounded-lg" />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 text-white">
             <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
             <p className="mb-6">
@@ -41,7 +41,7 @@ const MissionAndWaste = () => {
             </p>
             <Link
               to="/contact"
-              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300"
+              className="bg-[#493120] hover:bg-[#9E683E] text-white font-bold py-2 px-4 rounded-3xl"
             >
               Contact Us
             </Link>
