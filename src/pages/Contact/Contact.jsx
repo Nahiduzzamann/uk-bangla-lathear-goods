@@ -2,7 +2,8 @@ import { PhoneIcon, MailIcon, LocationMarkerIcon } from '@heroicons/react/outlin
 
 const ContactPage = () => {
     return (
-        <div className="container mx-auto p-4 pt-12 pb-12">
+        <div className='bg-gray-100'>
+            <div className="container mx-auto p-4 pt-12 pb-12">
                     <h4 className="text-3xl text-center font-bold mb-8 text-orange-500">Contact Us</h4>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -74,6 +75,7 @@ const ContactPage = () => {
                     </form>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

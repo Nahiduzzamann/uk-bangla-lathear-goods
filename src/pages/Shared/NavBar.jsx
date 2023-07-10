@@ -121,12 +121,12 @@ const Navbar = () => {
                       Passport Cover
                     </NavLink>
                   </li>
+                  <hr className="mt-2" />
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
                     <NavLink onClick={toggleMenu} to="/mission">
                       Mission & Waste
                     </NavLink>
                   </li>
-                  <hr className="mt-2" />
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
                     <NavLink onClick={toggleMenu} to="/aboutUs">
                       About Us
