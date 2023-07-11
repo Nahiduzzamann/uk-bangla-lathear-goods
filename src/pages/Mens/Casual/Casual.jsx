@@ -42,7 +42,7 @@ const MenCasual = () => {
             />
             <div className="h-40">
               <h2 className="text-xl font-semibold mb-2">{item.name}</h2>
-              <p className="text-gray-600 mb-4">${item.price}</p>
+              <p className="text-gray-600 mb-4">{item.price}</p>
             </div>
             <button
               className="bg-[#493120] hover:bg-[#9E683E] text-white font-bold py-2 px-4 rounded absolute bottom-4 left-4"
