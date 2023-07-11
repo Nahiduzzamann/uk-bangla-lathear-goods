@@ -1,7 +1,7 @@
 const ladiesLeatherShoesData = [
     {
       id: 1,
-      image: "shoe1.jpg",
+      picture: "https://img.mytheresa.com/1094/1236/66/jpeg/catalog/product/a3/P00786794_d2.jpg",
       name: "Classic Leather Pumps",
       price: "$99.99",
       description: "The Classic Leather Pumps are timeless and versatile shoes that can be dressed up or down. They are made from premium leather and feature a pointed toe, a comfortable heel, and a sleek design.",
@@ -10,7 +10,7 @@ const ladiesLeatherShoesData = [
     },
     {
       id: 2,
-      image: "shoe2.jpg",
+      picture: "https://harmony783.com/cdn/shop/products/groundingballetflatsbyHarmony7830.jpg?v=1678944345&width=1067",
       name: "Leather Ballet Flats",
       price: "$79.99",
       description: "The Leather Ballet Flats are a comfortable and stylish option for everyday wear. They are crafted from soft leather and feature a round toe, a flexible sole, and a cushioned insole for all-day comfort.",
@@ -19,7 +19,7 @@ const ladiesLeatherShoesData = [
     },
     {
       id: 3,
-      image: "shoe3.jpg",
+      picture: "https://ninewest.com/cdn/shop/products/PG.NWPRUCE-KBL03.RZ_ea7ce60f-f2b8-4bae-8eb5-e551539025a1_5000x.jpg?v=1582667742",
       name: "Ankle Strap Sandals",
       price: "$89.99",
       description: "The Ankle Strap Sandals are chic and trendy shoes that add a touch of sophistication to any outfit. They are made from genuine leather and feature a slim ankle strap, a block heel, and a cushioned footbed.",
@@ -28,7 +28,7 @@ const ladiesLeatherShoesData = [
     },
     {
       id: 4,
-      image: "shoe4.jpg",
+      picture: "https://media.nastygal.com/i/nastygal/bqq10083_tan_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
       name: "Leather Wedge Sandals",
       price: "$109.99",
       description: "The Leather Wedge Sandals are stylish and comfortable shoes that provide both height and support. They are crafted from high-quality leather and feature a wedge heel, an adjustable ankle strap, and a cushioned insole.",
@@ -37,7 +37,7 @@ const ladiesLeatherShoesData = [
     },
     {
       id: 5,
-      image: "shoe5.jpg",
+      picture: "https://rukminim1.flixcart.com/picture/450/500/xif0q/shoe/o/n/j/7-mrj1991-7-aadi-black-original-imaghhkj7363hufz.jpeg?q=90&crop=false",
       name: "Leather Loafers",
       price: "$99.99",
       description: "The Leather Loafers are classic and sophisticated shoes that can be worn for both formal and casual occasions. They are made from genuine leather and feature a slip-on design, a comfortable fit, and a durable sole.",
@@ -46,7 +46,7 @@ const ladiesLeatherShoesData = [
     },
     {
       id: 6,
-      image: "shoe6.jpg",
+      picture: "https://paversweb.s3-eu-west-1.amazonaws.com/ix/1104770.jpg",
       name: "Leather Oxford Shoes",
       price: "$119.99",
       description: "The Leather Oxford Shoes are a timeless and elegant choice for any wardrobe. They are crafted from premium leather and feature a lace-up closure, a low heel, and a cushioned insole for added comfort.",
@@ -55,7 +55,7 @@ const ladiesLeatherShoesData = [
     },
     {
       id: 7,
-      image: "shoe7.jpg",
+      picture: "https://www.manoloblahnik.com/media/catalog/product/cache/d502c9a82df2e2f226aed2a02b731972/e/0/e0d79046840bbbe907eb0bb8fa5c6af3bb933a44_designer-women-black-calf-leather-slingback-pumps-carolyne-90_50.jpg",
       name: "Leather Slingback Heels",
       price: "$109.99",
       description: "The Leather Slingback Heels are stylish and versatile shoes that can be dressed up or down. They are made from genuine leather and feature a slingback strap, a pointed toe, and a comfortable heel height.",
@@ -64,7 +64,7 @@ const ladiesLeatherShoesData = [
     },
     {
       id: 8,
-      image: "shoe8.jpg",
+      picture: "https://media3.newlookassets.com/i/newlook/852629018M1/womens/footwear/shoes/tan-leather-look-espadrille-2-part-flatform-sandals.jpg?strip=true&qlt=50&w=720",
       name: "Leather Espadrille Sandals",
       price: "$89.99",
       description: "The Leather Espadrille Sandals are a perfect choice for summer outings. They are crafted from soft leather and feature an espadrille sole, a strappy design, and a cushioned footbed for all-day comfort.",
@@ -73,7 +73,7 @@ const ladiesLeatherShoesData = [
     },
     {
       id: 9,
-      image: "shoe9.jpg",
+      picture: "https://cdn.shopify.com/s/files/1/0712/1227/files/cognac-womens-closed-toe-mule-pa.jpg?v=1659033133",
       name: "Leather Mules",
       price: "$79.99",
       description: "The Leather Mules are effortless and stylish shoes that can be worn for various occasions. They are made from genuine leather and feature a slip-on design, a comfortable fit, and a low heel for easy wearability.",
@@ -82,7 +82,7 @@ const ladiesLeatherShoesData = [
     },
     {
       id: 10,
-      image: "shoe10.jpg",
+      picture: "https://i0.wp.com/www.pristineshop.com.bd/wp-content/uploads/2021/08/790_18.jpg?resize=950%2C893&ssl=1",
       name: "Leather Chelsea Boots",
       price: "$129.99",
       description: "The Leather Chelsea Boots are a must-have for any wardrobe. They are crafted from high-quality leather and feature a classic Chelsea boot silhouette, elastic side panels, and a durable sole for long-lasting wear.",
@@ -91,7 +91,7 @@ const ladiesLeatherShoesData = [
     },
     {
       id: 11,
-      image: "shoe11.jpg",
+      picture: "https://katemiddletonstyle.org/wp-content/uploads/2019/10/jcrew-ashen-brown-Lucie-Suede-Pumps-900x900.jpeg",
       name: "Leather Suede Pumps",
       price: "$89.99",
       description: "The Leather Suede Pumps are elegant and sophisticated shoes that add a touch of luxury to any outfit. They are made from premium leather suede and feature a pointed toe, a slim heel, and a cushioned insole.",

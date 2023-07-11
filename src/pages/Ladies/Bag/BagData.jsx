@@ -1,7 +1,7 @@
 const ladiesLeatherBagsData = [
     {
       id: 1,
-      image: "bag1.jpg",
+      picture: "https://www.vidavida.co.uk/cdn/shop/products/vintage-leather-tote-bag_1400x.jpg?v=1542410860",
       name: "Vintage Leather Tote",
       price: "$149.99",
       description: "The Vintage Leather Tote is a sophisticated and elegant bag crafted from genuine leather. It features a spacious main compartment, interior pockets, and a detachable shoulder strap. Perfect for work or a night out.",
@@ -10,7 +10,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 2,
-      image: "bag2.jpg",
+      picture: "https://vonbaer.com/cdn/shop/files/von-baer-isabella-womens-small-leather-shoulder-bag-brown-on-female-model_2048x2048.jpg?v=1686566682",
       name: "Leather Shoulder Bag",
       price: "$89.99",
       description: "The Leather Shoulder Bag is a stylish and practical accessory for everyday use. It is made from high-quality leather and features an adjustable shoulder strap, multiple compartments, and a sleek design.",
@@ -19,7 +19,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 3,
-      image: "bag3.jpg",
+      picture: "https://cdn.shopify.com/s/files/1/1706/1819/products/Leather_Satchel_Men_Women_Niche_Lane_coffee1.jpg?v=1622276576",
       name: "Classic Satchel Bag",
       price: "$119.99",
       description: "The Classic Satchel Bag is a timeless piece that exudes elegance. It is crafted from premium leather and features a structured silhouette, top handle, and a removable crossbody strap for versatility.",
@@ -28,7 +28,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 4,
-      image: "bag4.jpg",
+      picture: "https://vonbaer.com/cdn/shop/files/von-baer-liberty-luxury-womens-leather-backpack-for-work-brown-on-a-female-model_98f1b2c4-7945-4fc6-845a-865a2a239da2_2048x2048.jpg?v=1686560780",
       name: "Leather Backpack",
       price: "$109.99",
       description: "The Leather Backpack is a trendy and functional bag that combines style and convenience. It has a spacious main compartment, multiple pockets, adjustable shoulder straps, and a top handle for easy carrying.",
@@ -37,7 +37,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 5,
-      image: "bag5.jpg",
+      picture: "https://images.squarespace-cdn.com/content/v1/5a8ec9fcb7411c86344062e6/1583261630707-7AREAF0W1IFAVOS88CTA/IMG_1412.jpg?format=1000w",
       name: "Tassel Crossbody Bag",
       price: "$79.99",
       description: "The Tassel Crossbody Bag is a chic and compact accessory for those who prefer a hands-free option. It features a sleek design, a tassel accent, and an adjustable crossbody strap for a comfortable fit.",
@@ -46,7 +46,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 6,
-      image: "bag6.jpg",
+      picture: "https://www.holtzleather.com/cdn/shop/products/DSC_5994-2_2048x.jpg?v=1613167192",
       name: "Leather Clutch",
       price: "$69.99",
       description: "The Leather Clutch is a versatile and stylish bag that can be carried as a clutch or used with the detachable wristlet strap. It is made from supple leather and features a secure zip-top closure.",
@@ -55,7 +55,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 7,
-      image: "bag7.jpg",
+      picture: "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1679941102-Belmont-Structured-Tote-Tan-059-359-Lifestyle_fullsize.jpg?crop=1xw:1.00xh;center,top&resize=980:*",
       name: "Structured Tote Bag",
       price: "$139.99",
       description: "The Structured Tote Bag is a sleek and sophisticated option for the modern woman. It is crafted from premium leather and features a structured silhouette, dual top handles, and a spacious interior.",
@@ -64,7 +64,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 8,
-      image: "bag8.jpg",
+      picture: "https://n.nordstrommedia.com/id/sr3/bd5d033c-f331-4faf-832f-45ff272487bd.jpeg?h=365&w=240&dpr=2",
       name: "Leather Hobo Bag",
       price: "$99.99",
       description: "The Leather Hobo Bag is a bohemian-inspired accessory with a relaxed and slouchy silhouette. It is made from soft leather and features a spacious main compartment, a shoulder strap, and fringe accents.",
@@ -73,7 +73,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 9,
-      image: "bag9.jpg",
+      picture: "https://www.gadstyle.com/wp-content/uploads/2023/06/Wiwu-waterproof-mini-crossbody-bag_1.webp",
       name: "Mini Crossbody Bag",
       price: "$59.99",
       description: "The Mini Crossbody Bag is a compact and stylish option for those on the go. It features a sleek design, an adjustable crossbody strap, and a zippered front pocket for easy access to essentials.",
@@ -82,7 +82,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 10,
-      image: "bag10.jpg",
+      picture: "https://cdn.shopify.com/s/files/1/0887/8772/files/image_64b8ff5f-ef95-4b71-b5a6-7dbace9c68f8.jpg?v=1683010092",
       name: "Leather Tote with Pockets",
       price: "$129.99",
       description: "The Leather Tote with Pockets is a functional and organized bag for everyday use. It is crafted from durable leather and features multiple exterior pockets, a spacious main compartment, and sturdy handlesfor easy carrying.",
@@ -91,7 +91,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 11,
-      image: "bag11.jpg",
+      picture: "https://i.etsystatic.com/28420428/r/il/549713/3934249829/il_570xN.3934249829_1vgd.jpg",
       name: "Saddle Crossbody Bag",
       price: "$89.99",
       description: "The Saddle Crossbody Bag is a stylish and compact accessory that adds a touch of bohemian flair to any outfit. It features a saddle-shaped design, an adjustable crossbody strap, and a magnetic closure.",
@@ -100,7 +100,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 12,
-      image: "bag12.jpg",
+      picture: "https://cdn.shopify.com/s/files/1/0712/1227/files/eucalyptus_large_bucket_bag_studio_2022_10-19-8.jpg?v=1667514869",
       name: "Leather Bucket Bag",
       price: "$119.99",
       description: "The Leather Bucket Bag is a trendy and spacious bag that combines style and functionality. It features a drawstring closure, an adjustable shoulder strap, and a roomy interior to hold all your essentials.",
@@ -109,7 +109,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 13,
-      image: "bag13.jpg",
+      picture: "https://bonia.com/cdn/shop/products/ariel-structured-satchel-bag-970407.jpg?v=1670386121",
       name: "Structured Satchel Bag",
       price: "$109.99",
       description: "The Structured Satchel Bag is a timeless and sophisticated accessory for any occasion. It is crafted from premium leather and features a structured silhouette, top handles, and a detachable shoulder strap.",
@@ -118,7 +118,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 14,
-      image: "bag14.jpg",
+      picture: "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/Solid_Color_Tote_Handbag_with_Tassel-BEAR_GEAR-f5e66-313165.png",
       name: "Leather Tote with Tassel",
       price: "$139.99",
       description: "The Leather Tote with Tassel is a versatile and stylish bag that can be carried for work or leisure. It features a roomy interior, a tassel accent, and comfortable shoulder straps for easy carrying.",
@@ -127,7 +127,7 @@ const ladiesLeatherBagsData = [
     },
     {
       id: 15,
-      image: "bag15.jpg",
+      picture: "https://images-cdn.ubuy.co.in/6341f3e9631574378125bf83-ubuy-online-shopping.jpg",
       name: "Leather Clutch Wallet",
       price: "$79.99",
       description: "The Leather Clutch Wallet is a compact and organized accessory that can be used as a clutch or a wallet. It features multiple card slots, a zippered coin pocket, and a secure snap closure.",
