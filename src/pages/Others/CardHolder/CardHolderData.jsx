@@ -1,7 +1,7 @@
 const cardHoldersData = [
     {
       id: 1,
-      picture: "card-holder1.jpg",
+      picture: "https://airdeal.com.bd/images/thumbs/0005840_baellerry-rfid-card-holder-men-wallets-money-bag-male-vintage-short-purse-pu-leather-slim-thin-walle_625.jpeg",
       name: "Slim Leather Card Holder",
       price: "$19.99",
       description: "The Slim Leather Card Holder is a minimalist and compact accessory for keeping your cards organized. It is made from genuine leather and features multiple card slots for convenience.",
@@ -10,7 +10,7 @@ const cardHoldersData = [
     },
     {
       id: 2,
-      picture: "card-holder2.jpg",
+      picture: "https://moody-bull.com/image/catalog/Products/Card-Holder.jpg",
       name: "Bifold Leather Card Holder",
       price: "$24.99",
       description: "The Bifold Leather Card Holder is a classic and timeless accessory. It is crafted from premium leather and offers multiple card slots, a clear ID window, and a bill compartment.",
@@ -19,7 +19,7 @@ const cardHoldersData = [
     },
     {
       id: 3,
-      picture: "card-holder3.jpg",
+      picture: "https://m.media-amazon.com/images/I/71KdUpjYZuL._AC_UL1200_.jpg",
       name: "Zipper Leather Card Holder",
       price: "$29.99",
       description: "The Zipper Leather Card Holder provides extra security for your cards. It features a zip-around closure, multiple card slots, and a coin pocket. Ideal for carrying cards, cash, and coins.",
@@ -28,7 +28,7 @@ const cardHoldersData = [
     },
     {
       id: 4,
-      picture: "card-holder4.jpg",
+      picture: "https://www.hansonellis.com/mm5/graphics/00000001/custom-mens-black-leather-money-clip-holder-credit-card-wallet.jpg",
       name: "Leather Card Holder with Money Clip",
       price: "$34.99",
       description: "The Leather Card Holder with Money Clip combines functionality and style. It features card slots, an ID window, and a metal money clip for holding cash securely.",
@@ -37,7 +37,7 @@ const cardHoldersData = [
     },
     {
       id: 5,
-      picture: "card-holder5.jpg",
+      picture: "https://wildwovenleatherproducts.com/wp-content/uploads/2022/04/Passport-Holder-PH3-Cognac-Inside-Price-1-600x600.jpg",
       name: "Leather Passport Card Holder",
       price: "$26.99",
       description: "The Leather Passport Card Holder is a versatile accessory for frequent travelers. It can hold multiple cards, a passport, and even some cash. Perfect for keeping all essentials in one place.",
@@ -46,7 +46,7 @@ const cardHoldersData = [
     },
     {
       id: 6,
-      picture: "card-holder6.jpg",
+      picture: "https://www.ginifab.com/rfid_blocking_wallet/img/double_credit_card_holder_genuine_leather_aluminum_wallet_rfid_blocking_1.jpg",
       name: "Leather Card Holder with RFID Blocking",
       price: "$31.99",
       description: "The Leather Card Holder with RFID Blocking technology ensures the safety of your cards. It features RFID lining to protect against electronic theft and has multiple card slots for organization.",
@@ -55,7 +55,7 @@ const cardHoldersData = [
     },
     {
       id: 7,
-      picture: "card-holder7.jpg",
+      picture: "https://static-01.daraz.com.bd/p/8099909a272e21f66f6e372e51727dfb.jpg_750x750.jpg_.webp_.webp",
       name: "Leather Card Holder with Coin Pocket",
       price: "$27.99",
       description: "The Leather Card Holder with Coin Pocket is a practical accessory for everyday use. It has card slots, an ID window, and a zippered coin pocket for storing loose change.",
@@ -64,7 +64,7 @@ const cardHoldersData = [
     },
     {
       id: 8,
-      picture: "card-holder8.jpg",
+      picture: "https://www.rustico.com/cdn/shop/products/Rustico_Photography_Lifestyle_KeychainWallet_RESIZED_1.jpg?v=1664301816",
       name: "Leather Keychain Card Holder",
       price: "$19.99",
       description: "The Leather Keychain Card Holder is a convenient accessory for keeping your cards accessible. It features card slots and a keyring attachment for easy carrying.",
@@ -73,7 +73,7 @@ const cardHoldersData = [
     },
     {
       id: 9,
-      picture: "card-holder9.jpg",
+      picture: "https://ae01.alicdn.com/kf/Uf82e55944bf043adaa1b08ee2eccb2b0g/Practical-Genuine-Leather-Slim-Card-Holder-Wallet-Men-s-Snap-Closure-with-Gripper-Easy-Usage-Casual.jpg",
       name: "Leather Card Holder with Snap Closure",
       price: "$22.99",
       description: "The Leather Card Holder with Snap Closure is a stylish and secure option for organizing your cards. It features a snap closure, card slots, and a clear ID window.",
@@ -82,7 +82,7 @@ const cardHoldersData = [
     },
     {
       id: 10,
-      picture: "card-holder10.jpg",
+      picture: "https://i.etsystatic.com/26667655/r/il/e9fea9/4430565040/il_fullxfull.4430565040_lq1y.jpg",
       name: "Leather Card Holder with Pull Tab",
       price: "$25.99",
       description: "The Leather Card Holder with Pull Tab allows easy access to your cards. Simply pull the tab to reveal the cards. It also features additional card slots and a clear ID window.",
