@@ -16,6 +16,9 @@ import ContactPage from './pages/Contact/Contact';
 import MissionAndWaste from './pages/Mission&Waste/Mission&Waste';
 import LadiesShoe from './pages/Ladies/Shoes/LadiesShoe';
 import LadiesBag from './pages/Ladies/Bag/LadiesBag';
+import CardHolder from './pages/Others/CardHolder/CardHolder';
+import CorporateGifts from './pages/Others/CorporateGifts/CorporateGifts';
+import PassportCover from './pages/Others/PassportCover/PassportCover';
 
 
 const router = createBrowserRouter([
@@ -71,6 +74,18 @@ const router = createBrowserRouter([
       {
         path: "/ladiesBag",
         element: <LadiesBag></LadiesBag>
+      },
+      {
+        path: "/cardHolder",
+        element: <CardHolder></CardHolder>
+      },
+      {
+        path: "/corporateGifts",
+        element: <CorporateGifts></CorporateGifts>
+      },
+      {
+        path: "/passportCover",
+        element: <PassportCover></PassportCover>
       },
      
     ],

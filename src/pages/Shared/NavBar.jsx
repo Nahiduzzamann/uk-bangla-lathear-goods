@@ -107,17 +107,17 @@ const Navbar = () => {
                     OTHERS
                   </p>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/corporateGifts`}>
+                    <NavLink onClick={toggleMenu} to='/corporateGifts'>
                       Corporate Gifts
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/cardHolder`}>
+                    <NavLink onClick={toggleMenu} to='/cardHolder'>
                       Card Holder
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/passportCover`}>
+                    <NavLink onClick={toggleMenu} to='/passportCover'>
                       Passport Cover
                     </NavLink>
                   </li>
@@ -299,19 +299,19 @@ const Navbar = () => {
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
+                          to='/corporateGifts'
                         >Corporate Gifts</NavLink>
                       </li>
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
+                          to='/passportCover'
                         >Passport Cover</NavLink>
                       </li>
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
+                          to='/cardHolder'
                         >Card Holder</NavLink>
                       </li>
                     </ul>
