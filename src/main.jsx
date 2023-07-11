@@ -14,6 +14,8 @@ import MenJackets from './pages/Mens/LeatherJacket/LeatherJacket';
 import AboutUs from './pages/AboutUs/AboutUs';
 import ContactPage from './pages/Contact/Contact';
 import MissionAndWaste from './pages/Mission&Waste/Mission&Waste';
+import LadiesShoe from './pages/Ladies/Shoes/LadiesShoe';
+import LadiesBag from './pages/Ladies/Bag/LadiesBag';
 
 
 const router = createBrowserRouter([
@@ -61,6 +63,14 @@ const router = createBrowserRouter([
       {
         path: "/menJackets",
         element: <MenJackets></MenJackets>,
+      },
+      {
+        path: "/ladiesShoe",
+        element: <LadiesShoe></LadiesShoe>,
+      },
+      {
+        path: "/ladiesBag",
+        element: <LadiesBag></LadiesBag>
       },
      
     ],

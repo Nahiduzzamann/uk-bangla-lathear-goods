@@ -94,12 +94,12 @@ const Navbar = () => {
                     LADIES
                   </p>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/ladiesBag`}>
+                    <NavLink onClick={toggleMenu} to='/ladiesBag'>
                       Ladies Bag
                     </NavLink>
                   </li>
                   <li className="text-white  hover:bg-[#5B3D28] px-3 py-[2px] rounded-md ">
-                    <NavLink onClick={toggleMenu} to={`/ladiesShoe`}>
+                    <NavLink onClick={toggleMenu} to='/ladiesShoe'>
                       Ladies Shoe
                     </NavLink>
                   </li>
@@ -255,13 +255,13 @@ const Navbar = () => {
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
+                          to='/ladiesBag'
                         >Bag</NavLink>
                       </li>
                       <li>
                         <NavLink
                         className="text-white hover:text-gray-300 lg:text-xl"
-                          to={`/products/${"cattleFeed"}`}
+                          to='/ladiesShoe'
                         >Shoe</NavLink>
                       </li>
                     </ul>
