@@ -12,7 +12,7 @@ const ContactPage = () => {
     email: "",
     message: "",
   });
-
+  const [send, setSent] = useState(false);
   const handleChange = (e) => {
     setFormData((prevData) => ({
       ...prevData,
@@ -22,23 +22,32 @@ const ContactPage = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setSent(true);
+    const templateParams = {
+      from_name: formData.name,
+      user_email: formData.email,
+      message: formData.message,
+    };
+
     emailjs
-      .sendForm(
+      .send(
         "service_gh4uicd",
         "template_hbfnnfk",
-        e.target,
+        templateParams,
         "xB7tTF2IN2-v18kmv"
       )
       .then((result) => {
         console.log(result.text);
-        // Reset the form after sending the email
         setFormData({
           name: "",
           email: "",
           message: "",
         });
+        alert("Message Sent. Thanks For Your Feedback!");
+        setSent(false);
       })
       .catch((error) => {
+        setSent(false);
         console.error(error.text);
       });
   };
@@ -141,7 +150,7 @@ const ContactPage = () => {
                 type="submit"
                 className="bg-[#493120] hover:bg-[#9E683E] text-white font-bold py-2 px-4 rounded"
               >
-                Send
+                {send ? "Sending.." : "Send"}
               </button>
             </form>
           </div>
