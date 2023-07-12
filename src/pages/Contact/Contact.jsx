@@ -4,27 +4,42 @@ import {
   MailIcon,
   LocationMarkerIcon,
 } from "@heroicons/react/outline";
+import { useState } from "react";
 
 const ContactPage = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData((prevData) => ({
+      ...prevData,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
-      .send(
+      .sendForm(
         "service_gh4uicd",
         "template_hbfnnfk",
-        {
-          to_email: "recipient@example.com",
-          from_name: "Sender Name",
-          message: "Hello, this is the email message.",
-        },
+        e.target,
         "xB7tTF2IN2-v18kmv"
       )
-      .then((response) => {
-        console.log("Email sent successfully!", response.status, response.text);
+      .then((result) => {
+        console.log(result.text);
+        // Reset the form after sending the email
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
       })
       .catch((error) => {
-        console.error("Email failed to send.", error);
+        console.error(error.text);
       });
   };
 
@@ -100,15 +115,24 @@ const ContactPage = () => {
             <form onSubmit={sendEmail}>
               <input
                 type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
                 placeholder="Name"
                 className="border border-gray-300 rounded-md w-full p-2 mb-4"
               />
               <input
                 type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
                 placeholder="Email"
                 className="border border-gray-300 rounded-md w-full p-2 mb-4"
               />
               <textarea
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
                 placeholder="Message"
                 className="border border-gray-300 rounded-md w-full p-2 mb-4 resize-none"
                 rows="4"
