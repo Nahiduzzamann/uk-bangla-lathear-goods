@@ -19,6 +19,8 @@ import LadiesBag from './pages/Ladies/Bag/LadiesBag';
 import CardHolder from './pages/Others/CardHolder/CardHolder';
 import CorporateGifts from './pages/Others/CorporateGifts/CorporateGifts';
 import PassportCover from './pages/Others/PassportCover/PassportCover';
+import FAQPage from './pages/FAQ/Faq';
+import PrivacyLegalPage from './pages/LegalPrivacy/LegalPrivacy';
 
 
 const router = createBrowserRouter([
@@ -86,6 +88,14 @@ const router = createBrowserRouter([
       {
         path: "/passportCover",
         element: <PassportCover></PassportCover>
+      },
+      {
+        path: "/faq",
+        element: <FAQPage></FAQPage>
+      },
+      {
+        path: "/privacyLegal",
+        element: <PrivacyLegalPage></PrivacyLegalPage>
       },
      
     ],

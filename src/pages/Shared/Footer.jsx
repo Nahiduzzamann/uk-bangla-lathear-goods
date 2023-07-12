@@ -15,9 +15,8 @@ const Footer = () => {
                         <div>
                             <h3 className="text-[#111111] font-bold text-3xl mb-2 border-b-[3px] border-[#493120] w-16">Navigation</h3>
                             <ul className="text-gray-400">
-                                <li className='text-[#111111] hover:text-[#B67A4F]'><Link to={`/products/${'cattleFeed'}`}>FAQ</Link> </li>
-                                <li className='text-[#111111] hover:text-[#B67A4F]'><Link to={`/products/${'broilerFeed'}`}>TEAM</Link></li>
-                                <li className='text-[#111111] hover:text-[#B67A4F]'><Link to='/'>PRIVACY & LEGAL</Link></li>
+                                <li className='text-[#111111] hover:text-[#B67A4F]'><Link to='/faq'>FAQ</Link> </li>
+                                <li className='text-[#111111] hover:text-[#B67A4F]'><Link to='/privacyLegal'>PRIVACY & LEGAL</Link></li>
                             </ul>
                         </div>
                         <div>
