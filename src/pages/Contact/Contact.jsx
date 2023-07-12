@@ -128,11 +128,13 @@ const ContactPage = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Name"
+                required
                 className="border border-gray-300 rounded-md w-full p-2 mb-4"
               />
               <input
                 type="email"
                 name="email"
+                required
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="Email"
