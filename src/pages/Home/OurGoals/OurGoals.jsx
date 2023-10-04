@@ -7,7 +7,7 @@ const OurGoals = () => {
         <div className="w-full md:w-1/2 lg:w-1/3 p-8 relative">
           <div className="h-80 w-80 xl:h-96 xl:w-96 border-8 border-orange-500 animate-bounce-slow">   
           </div>
-          <img className="absolute top-10 -left-2 h-80 w-80 xl:h-96 xl:w-96" src="https://russpeak.com/wp-content/uploads/2014/06/goal-bridge.jpg" alt="" />
+          <img className="absolute top-10 -left-2 h-80 w-80 xl:h-96 xl:w-96 rounded" src="https://www.conovercompany.com/wp-content/uploads/2023/01/top-view-of-goals-word-made-of-wooden-blocks-on-2022-12-16-15-23-14-utc-scaled.jpg" alt="" />
         </div>
         <div className="w-full md:w-1/2 lg:w-2/3 p-8">
           <h2 className="text-2xl lg:text-5xl text-orange-500 font-bold mb-6"> 
